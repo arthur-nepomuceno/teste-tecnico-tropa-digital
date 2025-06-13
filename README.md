@@ -1,70 +1,177 @@
-# Getting Started with Create React App
+# Projeto Frontend: Teste Técnico Tropa Digital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o projeto frontend desenvolvido como parte do teste técnico da Tropa Digital. O objetivo principal foi criar uma aplicação web responsiva com duas telas principais: Login e uma tela interna (Home/Eventos), seguindo layouts específicos.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+1.  [Visão Geral](#1-visão-geral)
+2.  [Tecnologias Utilizadas](#2-tecnologias-utilizadas)
+3.  [Funcionalidades](#3-funcionalidades)
+4.  [Como Rodar o Projeto Localmente](#4-como-rodar-o-projeto-localmente)
+5.  [Deploy Online](#5-deploy-online)
+6.  [Autor](#6-autor)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Visão Geral
 
-### `npm test`
+Este projeto é uma Single Page Application (SPA) desenvolvida com React, focada em replicar fielmente o design proposto para as telas de login e de eventos/home. A aplicação demonstra competências em desenvolvimento frontend, estilização com Styled Components, roteamento com React Router DOM e responsividade.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Tecnologias Utilizadas
 
-### `npm run build`
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+* **Styled Components:** Para estilização baseada em componentes, permitindo CSS-in-JS.
+* **React Router DOM:** Para gerenciamento de rotas e navegação entre as páginas.
+* **`gh-pages`:** Para facilitar o deploy contínuo no GitHub Pages.
+* **HTML5 & CSS3:** Estrutura e estilização padrão.
+* **JavaScript (ES6+):** Lógica da aplicação.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Tela de Login:**
+    * Interface de usuário fiel ao layout fornecido (`Login.jpg`).
+    * Validação básica de credenciais (usuário: `teste@teste.com`, senha: `123`).
+    * Exibição de mensagem de erro para credenciais inválidas.
+    * Alternar visibilidade da senha.
+    * Design responsivo.
+* **Tela Interna (Eventos / Home):**
+    * Interface de usuário fiel ao layout fornecido (`Eventos.png`).
+    * Sidebar de navegação fixa.
+    * Header com ícone de pesquisa e avatar do usuário.
+    * Tabela de eventos com dados mockados.
+    * Funcionalidade de paginação (simulada ou básica).
+    * Botão "Sair" para retornar à tela de login.
+    * Design responsivo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Como Rodar o Projeto Localmente
 
-### `npm run eject`
+Siga estas instruções para configurar e executar o projeto em sua máquina local:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/arthur-nepomuceno/teste-tecnico-tropa-digital.git](https://github.com/arthur-nepomuceno/teste-tecnico-tropa-digital.git)
+    ```
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd teste-tecnico-tropa-digital
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm start
+    # ou
+    yarn start
+    ```
+    O projeto será aberto automaticamente no seu navegador padrão em `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. Deploy Online
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto está publicado e acessível via GitHub Pages no seguinte endereço:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[https://arthur-nepomuceno.github.io/teste-tecnico-tropa-digital](https://arthur-nepomuceno.github.io/teste-tecnico-tropa-digital)
 
-## Learn More
+**Credenciais de Login para Teste:**
+* **Email:** `teste@teste.com`
+* **Senha:** `123`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 6. Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Arthur Nepomuceno](https://github.com/arthur-nepomuceno)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+# Frontend Project: Digital Troop Technical Test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This repository contains the frontend project developed as part of the Digital Troop technical test. The main objective was to create a responsive web application with two main screens: Login and an internal (Home/Events) screen, following specific layouts.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Table of Contents
 
-### Advanced Configuration
+1.  [Overview](#1-overview)
+2.  [Technologies Used](#2-technologies-used)
+3.  [Features](#3-features)
+4.  [How to Run the Project Locally](#4-how-to-run-the-project-locally)
+5.  [Online Deployment](#5-online-deployment)
+6.  [Author](#6-author)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### 1. Overview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is a Single Page Application (SPA) developed with React, focused on faithfully replicating the proposed design for the login and events/home screens. The application demonstrates proficiency in frontend development, styling with Styled Components, routing with React Router DOM, and responsiveness.
 
-### `npm run build` fails to minify
+### 2. Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **React:** JavaScript library for building user interfaces.
+* **Styled Components:** For component-based styling, enabling CSS-in-JS.
+* **React Router DOM:** For managing routes and navigation between pages.
+* **`gh-pages`:** To facilitate continuous deployment on GitHub Pages.
+* **HTML5 & CSS3:** Standard structure and styling.
+* **JavaScript (ES6+):** Application logic.
+
+### 3. Features
+
+* **Login Screen:**
+    * User interface faithful to the provided layout (`Login.jpg`).
+    * Basic credential validation (username: `teste@teste.com`, password: `123`).
+    * Display of error message for invalid credentials.
+    * Toggle password visibility.
+    * Responsive design.
+* **Internal Screen (Events / Home):**
+    * User interface faithful to the provided layout (`Eventos.png`).
+    * Fixed navigation sidebar.
+    * Header with search icon and user avatar.
+    * Event table with mocked data.
+    * Pagination functionality (simulated or basic).
+    * "Logout" button to return to the login screen.
+    * Responsive design.
+
+### 4. How to Run the Project Locally
+
+Follow these instructions to set up and run the project on your local machine:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/arthur-nepomuceno/teste-tecnico-tropa-digital.git](https://github.com/arthur-nepomuceno/teste-tecnico-tropa-digital.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd teste-tecnico-tropa-digital
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+4.  **Start the development server:**
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+    The project will automatically open in your default browser at `http://localhost:3000`.
+
+### 5. Online Deployment
+
+This project is published and accessible via GitHub Pages at the following address:
+
+[https://arthur-nepomuceno.github.io/teste-tecnico-tropa-digital](https://arthur-nepomuceno.github.io/teste-tecnico-tropa-digital)
+
+**Login Credentials for Testing:**
+* **Email:** `teste@teste.com`
+* **Password:** `123`
+
+### 6. Author
+
+[Arthur Nepomuceno](https://github.com/arthur-nepomuceno)
